@@ -1,7 +1,7 @@
 # This is a basic workflow to help you get started with Actions
 
 name: Deploy
-run-name: Deploy ${{inputs.version }} - ${{inputs.run_id }}
+run-name: Deploy ${{inputs.environment}}, ${{inputs.version }} - ${{inputs.run_id }}
 
 # Controls when the workflow will run
 on:
@@ -11,6 +11,8 @@ on:
       run_id:
         type: string
       version:
+        type: string
+      environment:
         type: string
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
