@@ -36,7 +36,7 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          input_version ="${{ github.event.inputs.version }}"
+          input_version="${{ github.event.inputs.version }}"
           if [ "$input_version" = "badversion" ]; then
             exit 1
           fi
