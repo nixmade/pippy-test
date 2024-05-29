@@ -2,6 +2,7 @@
 
 name: NoTriggers
 
+
 on:
   workflow_dispatch:
 
