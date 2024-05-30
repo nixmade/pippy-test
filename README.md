@@ -1,4 +1,4 @@
 # Repository for testing pippy
 
-NoTriggers - Shows worklfow which is not pippy ready
+NoTriggers - Shows worklfow which is not pippy ready.
 
